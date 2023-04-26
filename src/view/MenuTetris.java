@@ -26,66 +26,69 @@ public class MenuTetris extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        SALIR = new javax.swing.JLabel();
-        AJUSTES = new javax.swing.JLabel();
-        COMOJUGAR = new javax.swing.JLabel();
-        JUGAR = new javax.swing.JLabel();
-        PUNTAJE = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        salir = new javax.swing.JLabel();
+        ajustes = new javax.swing.JLabel();
+        comoJugar = new javax.swing.JLabel();
+        jugar = new javax.swing.JLabel();
+        puntaje = new javax.swing.JLabel();
+        tetrisP = new javax.swing.JLabel();
+        fondoMenu = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(399, 639));
+        setResizable(false);
         getContentPane().setLayout(null);
 
-        SALIR.setFont(new java.awt.Font("Segoe UI Light", 1, 24)); // NOI18N
-        SALIR.setForeground(new java.awt.Color(255, 255, 255));
-        SALIR.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/botonTetris.png"))); // NOI18N
-        SALIR.setText("SALIR");
-        SALIR.setDoubleBuffered(true);
-        SALIR.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        getContentPane().add(SALIR);
-        SALIR.setBounds(100, 530, 200, 80);
+        salir.setFont(new java.awt.Font("Segoe UI Light", 1, 24)); // NOI18N
+        salir.setForeground(new java.awt.Color(255, 255, 255));
+        salir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/botonTetris.png"))); // NOI18N
+        salir.setText("SALIR");
+        salir.setDoubleBuffered(true);
+        salir.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(salir);
+        salir.setBounds(100, 530, 200, 80);
 
-        AJUSTES.setFont(new java.awt.Font("Segoe UI Light", 1, 24)); // NOI18N
-        AJUSTES.setForeground(new java.awt.Color(255, 255, 255));
-        AJUSTES.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/botonTetris.png"))); // NOI18N
-        AJUSTES.setText("AJUSTES");
-        AJUSTES.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        getContentPane().add(AJUSTES);
-        AJUSTES.setBounds(100, 420, 200, 80);
+        ajustes.setFont(new java.awt.Font("Segoe UI Light", 1, 24)); // NOI18N
+        ajustes.setForeground(new java.awt.Color(255, 255, 255));
+        ajustes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/botonTetris.png"))); // NOI18N
+        ajustes.setText("AJUSTES");
+        ajustes.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(ajustes);
+        ajustes.setBounds(100, 420, 200, 80);
 
-        COMOJUGAR.setFont(new java.awt.Font("Segoe UI Light", 1, 24)); // NOI18N
-        COMOJUGAR.setForeground(new java.awt.Color(255, 255, 255));
-        COMOJUGAR.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/botonTetris.png"))); // NOI18N
-        COMOJUGAR.setText("COMO JUGAR");
-        COMOJUGAR.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        getContentPane().add(COMOJUGAR);
-        COMOJUGAR.setBounds(100, 320, 200, 80);
+        comoJugar.setFont(new java.awt.Font("Segoe UI Light", 1, 24)); // NOI18N
+        comoJugar.setForeground(new java.awt.Color(255, 255, 255));
+        comoJugar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/botonTetris.png"))); // NOI18N
+        comoJugar.setText("COMO JUGAR");
+        comoJugar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(comoJugar);
+        comoJugar.setBounds(100, 320, 200, 80);
+        comoJugar.getAccessibleContext().setAccessibleName("como jugar");
 
-        JUGAR.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/botoncitoTetris.png"))); // NOI18N
-        getContentPane().add(JUGAR);
-        JUGAR.setBounds(100, 120, 200, 80);
+        jugar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/botoncitoTetris.png"))); // NOI18N
+        getContentPane().add(jugar);
+        jugar.setBounds(100, 120, 200, 80);
 
-        PUNTAJE.setFont(new java.awt.Font("Palatino Linotype", 1, 24)); // NOI18N
-        PUNTAJE.setForeground(new java.awt.Color(255, 255, 255));
-        PUNTAJE.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        PUNTAJE.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/botonTetris.png"))); // NOI18N
-        PUNTAJE.setText("PUNTAJE");
-        PUNTAJE.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        PUNTAJE.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        getContentPane().add(PUNTAJE);
-        PUNTAJE.setBounds(100, 220, 200, 80);
+        puntaje.setFont(new java.awt.Font("Palatino Linotype", 1, 24)); // NOI18N
+        puntaje.setForeground(new java.awt.Color(255, 255, 255));
+        puntaje.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        puntaje.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/botonTetris.png"))); // NOI18N
+        puntaje.setText("PUNTAJE");
+        puntaje.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        puntaje.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(puntaje);
+        puntaje.setBounds(100, 220, 200, 80);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/tetrisImage.png"))); // NOI18N
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(80, 20, 247, 70);
+        tetrisP.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/tetrisImage.png"))); // NOI18N
+        getContentPane().add(tetrisP);
+        tetrisP.setBounds(80, 20, 247, 70);
 
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/menu.jpg"))); // NOI18N
-        jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel1.setOpaque(true);
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 400, 711);
+        fondoMenu.setForeground(new java.awt.Color(255, 255, 255));
+        fondoMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/menu.jpg"))); // NOI18N
+        fondoMenu.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        fondoMenu.setOpaque(true);
+        getContentPane().add(fondoMenu);
+        fondoMenu.setBounds(0, 0, 400, 660);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -127,12 +130,12 @@ public class MenuTetris extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel AJUSTES;
-    private javax.swing.JLabel COMOJUGAR;
-    private javax.swing.JLabel JUGAR;
-    private javax.swing.JLabel PUNTAJE;
-    private javax.swing.JLabel SALIR;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel ajustes;
+    private javax.swing.JLabel comoJugar;
+    private javax.swing.JLabel fondoMenu;
+    private javax.swing.JLabel jugar;
+    private javax.swing.JLabel puntaje;
+    private javax.swing.JLabel salir;
+    private javax.swing.JLabel tetrisP;
     // End of variables declaration//GEN-END:variables
 }
